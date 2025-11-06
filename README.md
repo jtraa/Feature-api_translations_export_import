@@ -17,9 +17,8 @@ Instead of developers manually changing translation files, we can now export the
 	•	File can then be edited outside of the system
 
 <b>Import</b>
-	•	Re-upload the edited file
+	•	Import translations to merge with current tranlsations
 	•	The system updates the translations based on the imported data
-	•	No need to redeploy the codebase
 
 <b>Why this feature exists</b>
 	•	Faster translations updates
@@ -29,11 +28,5 @@ Instead of developers manually changing translation files, we can now export the
 
 <b>Use cases</b>
 	•	New languages
-	•	Marketing / copy updates
 	•	Corrections from external translators
 	•	Bulk editing
-
-<b>Notes</b>
-	•	Only changed project files are committed
-	•	No core files were edited
-	•	This feature is intended for internal usage, not as a standalone package
